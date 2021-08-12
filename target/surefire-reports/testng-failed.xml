@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <groups>
+      <define name="include-group">
+        <include name="include-test-one"/>
+      </define> <!-- include-group -->
+      <run>
+        <include name="include-group"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ibm.practice.Azuretest.App"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
