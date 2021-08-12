@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50" started-at="2021-08-12T15:53:42Z" finished-at="2021-08-12T15:53:42Z">
+  <suite name="Default suite" duration-ms="22718" started-at="2021-08-12T17:12:50Z" finished-at="2021-08-12T17:13:13Z">
     <groups>
       <group name="include-test-one">
-        <method signature="App.testMethodOne()[pri:0, instance:com.ibm.practice.Azuretest.App@6574b225]" name="testMethodOne" class="com.ibm.practice.Azuretest.App"/>
+        <method signature="App.testMethodOne()[pri:0, instance:com.ibm.practice.Azuretest.App@1b604f19]" name="testMethodOne" class="com.ibm.practice.Azuretest.App"/>
       </group> <!-- include-test-one -->
     </groups>
-    <test name="Test" duration-ms="50" started-at="2021-08-12T15:53:42Z" finished-at="2021-08-12T15:53:42Z">
+    <test name="Default test" duration-ms="22718" started-at="2021-08-12T17:12:50Z" finished-at="2021-08-12T17:13:13Z">
       <class name="com.ibm.practice.Azuretest.App">
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.ibm.practice.Azuretest.App@6574b225]" name="testMethodOne" duration-ms="21" started-at="2021-08-12T21:23:42Z" finished-at="2021-08-12T21:23:42Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.ibm.practice.Azuretest.App@1b604f19]" name="testMethodOne" duration-ms="22688" started-at="2021-08-12T22:42:50Z" finished-at="2021-08-12T22:43:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
       </class> <!-- com.ibm.practice.Azuretest.App -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
