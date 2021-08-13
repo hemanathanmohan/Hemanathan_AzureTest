@@ -16,6 +16,8 @@ public class App
 
 		d.get("https://shop.advanceautoparts.com/");
 		Thread.sleep(3000);
+		System.out.println("Url Launched");
+		System.out.println("Successfully ran ");
 		d.quit();
 	}
 
